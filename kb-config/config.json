@@ -1,0 +1,78 @@
+{
+    "default_server_config": {
+        "m.homeserver": {
+            "base_url": "https://chat.north-industries.com",
+            "server_name": "chat.north-industries.com"
+        },
+        "m.identity_server": {
+            "base_url": "https://chat.north-industries.com"
+        }
+    },
+    "disable_custom_urls": true,
+    "disable_guests": false,
+    "disable_login_language_selector": false,
+    "disable_3pid_login": false,
+    "brand": "KB-CHAT",
+	"branding": {
+		"auth_header_logo_url": "https://chat.klabausterbeere.xyz/vector-icons/logo.svg",
+			"auth_footer_links": [
+			{"text": "FAQ", "url": "#"},
+			{"text": "Donate", "url": "#"}
+		]
+	},
+    "permalink_prefix": "https://chat.klabausterbeere.xyz",
+    "desktop_builds": {
+        "available": true,
+        "logo": "https://klabausterbeere.xyz/img/bkchat_logo_only.svg",
+        "url": "https://klabausterbeere.xyz/?page_id=70"
+    },
+	"mobile_builds": {
+        "ios": null,
+        "android": "https://play.google.com/store/apps/details?id=kb.chat",
+        "fdroid": null
+    },
+    "integrations_ui_url": "https://scalar.vector.im/",
+    "integrations_rest_url": "https://scalar.vector.im/api",
+    "integrations_widgets_urls": [
+        "https://scalar.vector.im/_matrix/integrations/v1",
+        "https://scalar.vector.im/api",
+        "https://scalar-staging.vector.im/_matrix/integrations/v1",
+        "https://scalar-staging.vector.im/api",
+        "https://scalar-staging.riot.im/scalar/api"
+    ],
+    "bug_report_endpoint_url": "https://bugs.klabausterbeere.xyz/api/submit",
+    "uisi_autorageshake_app": "element-auto-uisi",
+	"update_base_url": "https://klabausterbeere.xyz/down/",
+    "default_country_code": "DE",
+    "show_labs_settings": false,
+    "features": {
+		"feature_cats": false,
+		"feature_thread": false,
+		"feature_spotlight": false
+	},
+    "default_federate": true,
+    "default_theme": "dark",
+    "room_directory": {
+        "servers": [
+            "chat.north-industries.com"
+        ]
+    },
+    "piwik": {
+        "url": "https://piwik.riot.im/",
+        "whitelisted_hs_urls": ["https://chat.north-industries.com"],
+        "whitelisted_is_urls": ["https://chat.klabausterbeere.xyz", "https://chat.north-industries.com"],
+        "siteId": 1
+    },
+    "enable_presence_by_hs_url": {
+        "https://chat.north-industries.com": false,
+        "https://chat.klabausterbeere.xyz": false
+    },
+    "setting_defaults": {
+        "breadcrumbs": true
+    },
+    "jitsi": {
+        "preferred_domain": "meet.klabausterbeere.xyz"
+    },
+    "map_style_url": "https://api.maptiler.com/maps/streets/style.json?key=fU3vlMsMn4Jb6dnEIFsx"
+
+}
